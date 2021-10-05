@@ -17,3 +17,6 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+x=int(input("enter a number=>"))
+
+for
