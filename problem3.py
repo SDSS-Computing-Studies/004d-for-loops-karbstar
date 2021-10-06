@@ -17,6 +17,8 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
-x=int(input("enter a number=>"))
-
-for
+x=int(input("enter a number smaller than 10=>"))
+print("the sum of the series is" , end =' ')
+for i in range(x):
+    s=i+1
+    print(f"{s}" , end ='')
