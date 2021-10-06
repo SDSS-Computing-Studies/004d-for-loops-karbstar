@@ -21,5 +21,7 @@ example:
 Enter a name: Lebron
 That name is on the list
 """
-
+x=int(input("enter a name=>"))
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+for nameList in x:
+    

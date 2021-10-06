@@ -37,3 +37,11 @@ example:
 Enter a number: -4
 Invalid input
 """
+x=int(input("Enter a number=>"))
+if  x<0:
+    print("Invalid input")
+else:
+    for i in range(x):
+        c= i+1
+        x= (c)
+        print(f"{c}" , end= '*' )
