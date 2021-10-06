@@ -23,4 +23,4 @@ for i in numList:
     d=int(x)
     
     if x == d:
-        print(f"{i}," , end='')
+        print(f"{i}")
