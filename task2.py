@@ -21,7 +21,13 @@ example:
 Enter a name: Lebron
 That name is on the list
 """
-x=int(input("enter a name=>"))
+r=0
+x=input("enter a name=>").strip()
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 for i in nameList:
-    try namelist
+    if i == x:
+        print("That name is on the list")
+    else:
+        r=r+1
+        if r == 5:
+            print("That name is not on the list")

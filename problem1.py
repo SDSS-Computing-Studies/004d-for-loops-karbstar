@@ -22,10 +22,10 @@ enter a number:4
 ****
 
 """
-x=int(input("enter a number=>"))
+
 y=int(input("enter a number=>"))
 d= ("*")
-s=x*d
+s=y*d
 
 for rows in range( y   ):
     print(s)
