@@ -40,7 +40,10 @@ Invalid input
 num = int(input("enter a number: "))
  
 fac = 1
- 
-for i in range(1, num + 1):
-    fac = fac * i 
-print(f"factorial of {num} is  {fac}")
+if num<0:
+    print("Invalid input")
+else:
+    for i in range(1, num + 1):
+         fac = fac * i 
+         
+print(f"{num}! is {fac}")
