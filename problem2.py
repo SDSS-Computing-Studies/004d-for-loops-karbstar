@@ -37,11 +37,10 @@ example:
 Enter a number: -4
 Invalid input
 """
-x=int(input("Enter a number=>"))
-if  x<0:
-    print("Invalid input")
-else:
-    for i in range(x):
-        c= i+1
-        x= (c)
-        print(f"{c}" , end= '*' )
+num = int(input("enter a number: "))
+ 
+fac = 1
+ 
+for i in range(1, num + 1):
+    fac = fac * i 
+print(f"factorial of {num} is  {fac}")
